@@ -1,0 +1,45 @@
+.country-area{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 5px;
+}
+
+.country-area h2{
+    border-bottom: 2px dashed gray;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.country-area div{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.country-area img{
+    margin-top: 10px;
+    height: 80px;
+}
+
+.country-area button{
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 1.1em;
+    border: none;
+    font-weight: bold;
+    background-color: #166FE5;
+}
+
+@media (max-width: 760px) {
+    .country-area{
+        display: inline-block;
+        width: 95%;
+        border: 1px solid gray;
+        margin: 10px;
+        padding: 5px;
+    }
+}
